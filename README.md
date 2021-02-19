@@ -101,4 +101,7 @@ The last requested question about the ad-hoc feature could be run by executing t
  >>> `journal with maximum different drugs mentions is Journal of emergency nursing with 2 mentions`
 
 
+## Pour aller plus loin
+One of the things to be concerned about, when data is too large, is the processing engine that should be run in parallel computing like Spark other than centralized one.
 
+Another point to mention, is that in terms of code, there will be no big changes or updates other than adapting the data I/O to the right format so that we can deal with Big distributed datasets, but the logical process will still the same in this case.
