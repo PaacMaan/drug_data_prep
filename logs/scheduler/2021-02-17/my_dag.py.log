@@ -1,0 +1,280 @@
+[2021-02-17 23:40:37,669] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:40:37,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:40:37,768] {logging_mixin.py:104} INFO - [2021-02-17 23:40:37,768] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:40:41,536] {logging_mixin.py:104} INFO - [2021-02-17 23:40:41,398] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:40:41,743] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:40:44,543] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 6.905 seconds
+[2021-02-17 23:42:04,070] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:04,079] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:42:04,081] {logging_mixin.py:104} INFO - [2021-02-17 23:42:04,081] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:04,201] {logging_mixin.py:104} INFO - [2021-02-17 23:42:04,149] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:42:04,217] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:04,816] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.775 seconds
+[2021-02-17 23:42:36,283] {scheduler_job.py:182} INFO - Started process (PID=107) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:36,306] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:42:36,319] {logging_mixin.py:104} INFO - [2021-02-17 23:42:36,319] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:36,383] {logging_mixin.py:104} INFO - [2021-02-17 23:42:36,374] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:42:36,411] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:42:36,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.250 seconds
+[2021-02-17 23:43:08,945] {scheduler_job.py:182} INFO - Started process (PID=130) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:43:08,953] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:43:08,961] {logging_mixin.py:104} INFO - [2021-02-17 23:43:08,961] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:43:09,015] {logging_mixin.py:104} INFO - [2021-02-17 23:43:09,006] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:43:09,024] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:43:09,092] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.163 seconds
+[2021-02-17 23:47:37,249] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:47:37,333] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:47:37,347] {logging_mixin.py:104} INFO - [2021-02-17 23:47:37,347] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:47:37,398] {logging_mixin.py:104} INFO - [2021-02-17 23:47:37,378] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:47:37,403] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:47:37,540] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.328 seconds
+[2021-02-17 23:48:07,812] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:07,820] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:48:07,823] {logging_mixin.py:104} INFO - [2021-02-17 23:48:07,823] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:08,050] {logging_mixin.py:104} INFO - [2021-02-17 23:48:07,993] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:48:08,078] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:08,416] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.610 seconds
+[2021-02-17 23:48:38,772] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:38,777] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:48:38,781] {logging_mixin.py:104} INFO - [2021-02-17 23:48:38,781] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:38,859] {logging_mixin.py:104} INFO - [2021-02-17 23:48:38,852] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:48:38,865] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:48:38,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.202 seconds
+[2021-02-17 23:49:15,773] {scheduler_job.py:182} INFO - Started process (PID=102) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:15,844] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:49:15,857] {logging_mixin.py:104} INFO - [2021-02-17 23:49:15,856] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:16,114] {logging_mixin.py:104} INFO - [2021-02-17 23:49:15,960] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:49:16,234] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:19,706] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 3.999 seconds
+[2021-02-17 23:49:51,335] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:51,391] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:49:51,833] {logging_mixin.py:104} INFO - [2021-02-17 23:49:51,765] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:54,559] {logging_mixin.py:104} INFO - [2021-02-17 23:49:53,698] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:49:55,062] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:49:59,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 8.245 seconds
+[2021-02-17 23:50:32,431] {scheduler_job.py:182} INFO - Started process (PID=155) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:50:32,493] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:50:32,616] {logging_mixin.py:104} INFO - [2021-02-17 23:50:32,615] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:50:33,389] {logging_mixin.py:104} INFO - [2021-02-17 23:50:33,212] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:50:33,479] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:50:41,245] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 8.878 seconds
+[2021-02-17 23:51:33,966] {scheduler_job.py:182} INFO - Started process (PID=19) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:51:33,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:51:33,998] {logging_mixin.py:104} INFO - [2021-02-17 23:51:33,996] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:51:34,087] {logging_mixin.py:104} INFO - [2021-02-17 23:51:34,066] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:51:34,102] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:51:34,226] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.317 seconds
+[2021-02-17 23:52:06,318] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:06,364] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:52:06,392] {logging_mixin.py:104} INFO - [2021-02-17 23:52:06,390] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:06,755] {logging_mixin.py:104} INFO - [2021-02-17 23:52:06,692] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:52:06,844] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:07,142] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 1.163 seconds
+[2021-02-17 23:52:38,049] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:38,098] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:52:38,276] {logging_mixin.py:104} INFO - [2021-02-17 23:52:38,157] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:41,697] {logging_mixin.py:104} INFO - [2021-02-17 23:52:41,632] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:52:41,708] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:52:42,176] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 4.210 seconds
+[2021-02-17 23:53:12,670] {scheduler_job.py:182} INFO - Started process (PID=100) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:12,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:53:12,680] {logging_mixin.py:104} INFO - [2021-02-17 23:53:12,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:12,750] {logging_mixin.py:104} INFO - [2021-02-17 23:53:12,736] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:53:12,760] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:15,439] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 2.786 seconds
+[2021-02-17 23:53:45,831] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:45,991] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:53:46,031] {logging_mixin.py:104} INFO - [2021-02-17 23:53:46,017] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:46,434] {logging_mixin.py:104} INFO - [2021-02-17 23:53:46,369] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:53:46,588] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:53:54,626] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 8.871 seconds
+[2021-02-17 23:55:43,791] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:55:43,803] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:55:43,816] {logging_mixin.py:104} INFO - [2021-02-17 23:55:43,816] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:55:43,875] {logging_mixin.py:104} INFO - [2021-02-17 23:55:43,851] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:55:43,882] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:55:43,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.190 seconds
+[2021-02-17 23:56:15,340] {scheduler_job.py:182} INFO - Started process (PID=57) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:15,366] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:56:15,374] {logging_mixin.py:104} INFO - [2021-02-17 23:56:15,374] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:15,479] {logging_mixin.py:104} INFO - [2021-02-17 23:56:15,443] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:56:15,489] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:15,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.347 seconds
+[2021-02-17 23:56:46,708] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:46,729] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:56:46,736] {logging_mixin.py:104} INFO - [2021-02-17 23:56:46,735] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:46,832] {logging_mixin.py:104} INFO - [2021-02-17 23:56:46,811] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:56:46,837] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:56:46,922] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.245 seconds
+[2021-02-17 23:57:33,757] {scheduler_job.py:182} INFO - Started process (PID=112) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:57:33,766] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:57:33,770] {logging_mixin.py:104} INFO - [2021-02-17 23:57:33,769] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:57:33,864] {logging_mixin.py:104} INFO - [2021-02-17 23:57:33,854] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:57:33,870] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:57:33,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.286 seconds
+[2021-02-17 23:58:05,100] {scheduler_job.py:182} INFO - Started process (PID=141) to work on /opt/airflow/dags/my_dag.py
+[2021-02-17 23:58:05,107] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2021-02-17 23:58:05,110] {logging_mixin.py:104} INFO - [2021-02-17 23:58:05,110] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:58:05,138] {logging_mixin.py:104} INFO - [2021-02-17 23:58:05,130] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 33, in <module>
+    task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2021-02-17 23:58:05,146] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2021-02-17 23:58:05,192] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.096 seconds

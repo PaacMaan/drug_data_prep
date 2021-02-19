@@ -1,0 +1,31 @@
+[2021-02-16 12:11:27,390] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2021-02-16T12:09:42.897859+00:00 [queued]>
+[2021-02-16 12:11:27,578] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2021-02-16T12:09:42.897859+00:00 [queued]>
+[2021-02-16 12:11:27,587] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-16 12:11:27,592] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-02-16 12:11:27,593] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-02-16 12:11:27,796] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): runme_0> on 2021-02-16T12:09:42.897859+00:00
+[2021-02-16 12:11:28,354] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_0', '2021-02-16T12:09:42.897859+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', '/home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmpggf7wx07', '--error-file', '/tmp/tmpv8tyi2pt']
+[2021-02-16 12:11:28,383] {standard_task_runner.py:77} INFO - Job 4: Subtask runme_0
+[2021-02-16 12:11:28,158] {standard_task_runner.py:52} INFO - Started process 52 to run task
+[2021-02-16 12:11:29,529] {logging_mixin.py:104} INFO - Running <TaskInstance: example_bash_operator.runme_0 2021-02-16T12:09:42.897859+00:00 [running]> on host 071a2d8d0e8e
+[2021-02-16 12:11:31,856] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=runme_0
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-16T12:09:42.897859+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-02-16T12:09:42.897859+00:00
+[2021-02-16 12:11:31,885] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-02-16 12:11:31,895] {bash.py:158} INFO - Running command: echo "example_bash_operator__runme_0__20210216" && sleep 1
+[2021-02-16 12:11:32,154] {bash.py:169} INFO - Output:
+[2021-02-16 12:11:32,181] {bash.py:173} INFO - example_bash_operator__runme_0__20210216
+[2021-02-16 12:11:33,271] {bash.py:177} INFO - Command exited with return code 0
+[2021-02-16 12:11:34,423] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=example_bash_operator, task_id=runme_0, execution_date=20210216T120942, start_date=20210216T121127, end_date=20210216T121134
+[2021-02-16 12:11:35,030] {local_task_job.py:188} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-02-16 12:11:35,391] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-02-16 12:11:35,436] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 52
+[2021-02-16 12:11:35,439] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-02-16 12:11:35,458] {bash.py:185} INFO - Sending SIGTERM signal to bash process group
+[2021-02-16 12:11:35,845] {process_utils.py:66} INFO - Process psutil.Process(pid=52, status='terminated', exitcode=0, started='12:11:27') (52) terminated with exit code 0
