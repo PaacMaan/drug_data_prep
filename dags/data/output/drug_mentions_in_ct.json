@@ -1,0 +1,45 @@
+[
+    {
+        "drug": "DIPHENHYDRAMINE",
+        "atccode": "A04AD",
+        "mentioned_in": [
+            {
+                "scientific_title": "Use of Diphenhydramine as an Adjunctive Sedative for Colonoscopy in Patients Chronically on Opioids",
+                "date": "1 January 2020",
+                "journal": "Journal of emergency nursing"
+            },
+            {
+                "scientific_title": "Phase 2 Study IV QUZYTTIR™ (Cetirizine Hydrochloride Injection) vs V Diphenhydramine",
+                "date": "1 January 2020",
+                "journal": "Journal of emergency nursing"
+            },
+            {
+                "scientific_title": "Feasibility of a Randomized Controlled Clinical Trial Comparing the Use of Cetirizine to Replace Diphenhydramine in the Prevention of Reactions Related to Paclitaxel",
+                "date": "1 January 2020",
+                "journal": "Journal of emergency nursing"
+            }
+        ]
+    },
+    {
+        "drug": "EPINEPHRINE",
+        "atccode": "A01AD",
+        "mentioned_in": [
+            {
+                "scientific_title": "Tranexamic Acid Versus Epinephrine During Exploratory Tympanotomy",
+                "date": "27 April 2020",
+                "journal": "Journal of emergency nursing"
+            }
+        ]
+    },
+    {
+        "drug": "BETAMETHASONE",
+        "atccode": "R01AD",
+        "mentioned_in": [
+            {
+                "scientific_title": "Preemptive Infiltration With Betamethasone and Ropivacaine for Postoperative Pain in Laminoplasty or Laminectomy",
+                "date": "1 January 2020",
+                "journal": "Hôpitaux Universitaires de Genève"
+            }
+        ]
+    }
+]
