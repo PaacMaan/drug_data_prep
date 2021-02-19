@@ -21,7 +21,10 @@ Resulted files are :
 2. Once the docker images built, you can go to  new browser window tab type the following adresse :
     `http://localhost:8080/`
 
-3. Then Airflow UI will show up, in order to run the DAG all you need to do is to activate the pipeline and trigger the dag to be run from the UI byclicking on `Trigger DAG`. ### image of dag
+3. Then Airflow UI will show up, in order to run the DAG all you need to do is to activate the pipeline and trigger the dag to be run from the UI byclicking on `Trigger DAG`. 
+
+![dag_pipeline](https://github.com/PaacMaan/drug_data_prep/blob/main/pipeline_dag.png?raw=true)
+
  
 
 ## Output :
